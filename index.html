@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="page-header">
@@ -57,36 +58,36 @@
       <section class="information-gadget">
         <ul class="information-gadget-list">
           <li class="information-gadget-item">
-            <img src="image/slider/slider-quadrocopter.png" width="560" height="560" alt="Внешний вид устройства">
-            <button class="slider-button slider-prev" type="button">
-              <span class="visually-hidden">Предыдущее фото</span>
-            </button>
-            <button class="slider-button slider-next" type="button">
-              <span class="visually-hidden">Следующее фото</span>
-            </button>
-            <h3>Порхает как бабочка, жалит как пчела!</h3>
-            <p>Этот обычный, на первый взгляд, квадракоптер оснащен мощным лазером, замаскированным под стандартную камера.</p>
-            <button class="detailed-gadget">Подробнее</button>
-            <table class="info-gadget">
-              <tr>
-                <th>800 м</th>
-                <th>50 м</th>
-              </tr>
-              <tr>
-                <td>Дальность полета</td>
-                <td>Радиус поражения</td>
-              </tr>
-            </table>
+              <img src="image/slider/slider-quadrocopter.png" width="560" height="560" alt="Внешний вид устройства">
+              <button class="slider-button slider-prev" type="button">
+                <span class="visually-hidden">Предыдущее фото</span>
+              </button>
+              <button class="slider-button slider-next" type="button">
+                <span class="visually-hidden">Следующее фото</span>
+              </button>
+              <h3 class="information-gadget-title">Порхает как бабочка, жалит как пчела!</h3>
+              <p>Этот обычный, на первый взгляд, квадракоптер оснащен мощным лазером, замаскированным под стандартную камера.</p>
+              <button class="detailed-gadget">Подробнее</button>
+              <table class="info-gadget">
+                <tr>
+                  <th>800 м</th>
+                  <th>50 м</th>
+                </tr>
+                <tr>
+                  <td>Дальность полета</td>
+                  <td>Радиус поражения</td>
+                </tr>
+              </table>
           </li>
           <li class="information-gadget-item">
-            <img src="image/slider/slider-smart-watch.png" width="560" height="560" alt="Внешний вид устройства">
-            <button class="slider-button slider-prev" type="button">
+              <img src="image/slider/slider-smart-watch.png" width="560" height="560" alt="Внешний вид устройства">
+              <button class="slider-button slider-prev" type="button">
               <span class="visually-hidden">Предыдущее фото</span>
-            </button>
-            <button class="slider-button slider-next" type="button">
+              </button>
+              <button class="slider-button slider-next" type="button">
               <span class="visually-hidden">Следующее фото</span>
-            </button>
-            <h3>Худеем правильно!</h3>
+              </button>
+            <h3 class="information-gadget-title">Худеем правильно!</h3>
             <p>Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
             <button class="detailed-gadget">Подробнее</button>
             <table class="info-gadget">
@@ -106,7 +107,7 @@
             <button class="slider-button slider-next" type="button">
               <span class="visually-hidden">Следующее фото</span>
             </button>
-            <h3>Делай селфи, как Бен Стиллер! </h3>
+            <h3 class="information-gadget-title">Делай селфи, как Бен Стиллер! </h3>
             <p>Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 кг.</p>
             <button class="detailed-gadget">Подробнее</button>
             <table class="info-gadget">
@@ -129,37 +130,49 @@
         <ul class="gadget-list">
           <li class="gadget-item">
             <a href="">
-              <img src="image/kind-gadget/virtual-reality.svg" width="97" height="55" alt="Виртуальная реальность">
+              <div class="gadget-item-img">
+                <img src="image/kind-gadget/virtual-reality.svg" width="97" height="55" alt="Виртуальная реальность">
+              </div>
               <span>Виртуальная реальность</span>
             </a>
           </li>
           <li class="gadget-item">
             <a href="#">
-              <img src="image/kind-gadget/monopods.svg" width="86" height="117" alt="Монопод для селфи">
-            <span>Монопод для селфи</span>
+              <div class="gadget-item-img">
+                <img src="image/kind-gadget/monopods.svg" width="86" height="117" alt="Монопод для селфи">
+              </div>
+              <span>Монопод для селфи</span>
             </a>
           </li>
           <li class="gadget-item">
             <a href="#">
-              <img src="image/kind-gadget/action-cameras.svg" width="71" height="87" alt="Экшен-камера">
+              <div class="gadget-item-img">
+                <img src="image/kind-gadget/action-cameras.svg" width="71" height="87" alt="Экшен-камера">
+              </div>
               <span>Экшен-камера</span>
             </a>
           </li>
           <li class="gadget-item">
             <a href="#">
-              <img src="image/kind-gadget/fitness.svg" width="107" height="65" alt="Фитнес браслеты">
+              <div class="gadget-item-img">
+                <img src="image/kind-gadget/fitness.svg" width="107" height="65" alt="Фитнес браслеты">
+              </div>
               <span>Фитнес браслеты</span>
             </a>
           </li>
           <li class="gadget-item">
             <a href="#">
-              <img src="image/kind-gadget/smart-watch.svg" width="56" height="98" alt="Умные часы">
+              <div class="gadget-item-img">
+                <img src="image/kind-gadget/smart-watch.svg" width="56" height="98" alt="Умные часы">
+              </div>
               <span>Умные часы</span>
             </a>
           </li>
           <li class="gadget-item">
             <a href="#">
+              <div class="gadget-item-img">
               <img src="image/kind-gadget/quadrocopter.svg" width="132" height="69" alt="Квадракоптеры">
+              </div>
               <span>Квадракоптеры</span>
             </a>
           </li>
@@ -198,8 +211,10 @@
               <img src="image/credit.svg" width="156" height="188" alt="Кредит">
           </li>
         </ul>
-        <a href="#">
-          <img src="image/transport.svg" width="47" height="31" alt="Доставка">
+        <a class="delivery-of-goods" href="#">
+          <div class="delivery-image">
+            <img src="image/transport.svg" width="47" height="31" alt="Доставка">
+          </div>
           <span>Доставим редкий товар под заказ</span>
           <span>i</span>
         </a>
@@ -252,7 +267,7 @@
     </main>
 
     <footer class="page-footer">
-      <a href="index.html"><img src="image/logo.svg" width="145" height="36" alt="Логотип"></a>
+      <a href="index.html"><img class="page-footer-logo" src="image/logo-footer.svg" width="145" height="36" alt="Логотип"></a>
       <p class="footer-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
       <ul class="footer-list">
         <li class="footer-item">
@@ -265,7 +280,7 @@
           <a href="#">Контакты</a>
         </li>
       </ul>
-      <a class="footer-phone" href="tel:+78128121212">+7(812) 812-12-12</a>
+      <a class="footer-phone" href="tel:+78128121212">Тел:+7(812) 812-12-12</a>
       <ul class="footer-list-social">
         <li class="footer-item-social">
           <a href="#"><img src="image/social-network/telegram.svg" width="40" height="40" alt="Телеграмм"></a>
