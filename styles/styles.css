@@ -46,7 +46,6 @@ body {
 .navigation {
   background-color: #ffe17f;
   margin-top: 40px;
-  padding-bottom: 34px;
 }
 .navigation ul {
   padding: 0;
@@ -76,6 +75,10 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.product-navigation-catalog {
+  padding-bottom: 30px;
+  background-color: #ffe17f;
+}
 .product-catalog {
   margin-right: 7px;
 }
@@ -89,6 +92,10 @@ body {
 .product-navigation-item a{
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.product-navigation-info {
+  max-width: 600px;
+  flex-wrap: wrap;
 }
 .product-navigation-info .product-navigation-item:not(:last-child) {
   margin-right: 50px;
@@ -109,8 +116,12 @@ body {
   padding: 0;
   list-style-type: none;
 }
-.information-gadget-item {
+
+.information-gadget-item--active {
   display: flex;
+}
+.information-gadget-item {
+  display: none;
   justify-content: space-between;
 }
 .information-gadget-item div {
@@ -146,7 +157,7 @@ body {
   letter-spacing: 0.2em;
 }
 .information-gadget .container {
-  background-color: #ffe17f;
+  background-image: linear-gradient(180deg, #ffe17f 150px,#fff 150px);
 }
 .information-gadget-list {
   margin: 0;
@@ -169,6 +180,11 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: #000;
+}
+.info-gadget tr{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
 .info-gadget th {
   font-weight: 400;
@@ -196,6 +212,7 @@ body {
   height: 160px;
   background-color: #ffe17f;
   text-align: center;
+  margin-bottom: 33px;
 }
 .gadget-item-img img {
   margin: auto;
@@ -204,7 +221,7 @@ body {
   margin-bottom: 70px;
 }
 .information {
-  background-color: #f0f0f0;
+  background-image: linear-gradient(180deg,#fff 100px,#e5e5e5 100px);
   margin-bottom: 70px;
 }
 .information-slider-block{
@@ -212,16 +229,45 @@ body {
   margin-bottom: 70px;
 }
 .information-title-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 64px;
 }
 .information-title-list button{
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   line-height: 21px;
   text-transform: uppercase;
+  min-width: 280px;
+  min-height: 40px;
+}
+.information-title-list li {
+  margin-bottom: 55px;
+}
+.information-credit-item .information-credit-btn {
+  margin-bottom: 0;
 }
 .information-list {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
+}
+.information-service-item {
+  display: none;
+}
+.information-service-item--active{
+  display: flex;
+}
+.service-item-description {
+  max-width: 450px;
+  margin: 72px 110px 145px 116px;
+}
+.service-item-description-image {
+  margin: 72px 66px 145px 0;
 }
 .information-list h3{
   font-family: "Raleway";
@@ -229,6 +275,7 @@ body {
   font-size: 50px;
   line-height: 50px;
   color: #000;
+  margin: 0;
 }
 .delivery-image {
   display: inline-block;
@@ -498,6 +545,7 @@ margin-bottom: 19px;
   background-color: #fff;
   padding-top: 70px;
   padding-bottom: 68px;
+  width: 840px;
 }
 .sorting-container {
   display: flex;
@@ -513,9 +561,12 @@ margin-bottom: 19px;
   color: #000;
 }
 .product-list {
-  /* display: grid;
-  grid-template-columns: 1fr 1fr; */
+  display: grid;
+  grid-template-columns: 360px 360px;
+  gap: 40px;
   list-style-type: none;
+  margin: 0;
+  margin-bottom: 40px;
 }
 .product-card-link {
   font-family: "Rubik";
@@ -525,12 +576,24 @@ margin-bottom: 19px;
   color: #000;
   text-decoration: none;
 }
+.product-card {
+  max-width: 360px;
+}
+.product-card-title {
+  margin: 0;
+  max-width: 230px;
+}
 .product-card-price {
   font-family: "Rubik";
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   color: #000;
+}
+.product-card-info {
+ display: flex;
+ justify-content: space-between;
+ margin-top: 32px;
 }
 .pagination {
   display: flex;
