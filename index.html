@@ -24,9 +24,9 @@
                       d="M15.7 14.3L12.6 11.2C13.5 10 14 8.6 14 7C14 3.1 10.9 0 7 0C3.1 0 0 3.1 0 7C0 10.9 3.1 14 7 14C8.6 14 10 13.5 11.2 12.6L14.3 15.7C14.5 15.9 14.7 16 15 16C15.6 16 16 15.6 16 15C16 14.8 15.9 14.5 15.7 14.3ZM2 7C2 4.2 4.2 2 7 2C9.8 2 12 4.2 12 7C12 9.8 9.8 12 7 12C4.2 12 2 9.8 2 7Z"
                       fill="black" />
                   </svg>
-                  <form action="">
-                    <label class="form-label" for="appointment-date">
-                      <input class="field navigation-input" type="text" placeholder="Поиск по сайту">
+                  <form action="https://echo.htmlacademy.ru/">
+                    <label class="form-label" for="navigation-input">
+                      <input class="navigation-input" id="navigation-input" type="text" placeholder="Поиск по сайту">
                     </label>
                   </form>
                   <div>
@@ -34,8 +34,9 @@
                   </div>
                 </li>
                 <li class="page-navigation-item">
-                  <a class="page-navigation-item-link" href="#"> <svg width="14" height="12" viewBox="0 0 14 12"
-                      aria-hidden="true" focusable="false" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <a class="page-navigation-item-link" href="#">
+                    <svg width="14" height="12" viewBox="0 0 14 12" aria-hidden="true" focusable="false" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M0.5 12H13.5C13.3 9.4 11.4 7.2 8.8 6.5C9.8 5.9 10.5 4.8 10.5 3.5C10.5 1.6 8.9 0 7 0C5.1 0 3.5 1.6 3.5 3.5C3.5 4.8 4.2 5.9 5.2 6.5C2.6 7.2 0.7 9.4 0.5 12Z"
                         fill="black" />
@@ -55,13 +56,16 @@
                 </li>
                 <li class="page-navigation-item">
                   <a href="#" class="page-navigation-item-link popover-close-button">
-                    <svg width="16" height="14" viewBox="0 0 16 14"
-                      aria-hidden="true" focusable="false" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="16" height="14" viewBox="0 0 16 14" aria-hidden="true" focusable="false" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M15.3 5L11.8 5.2L8.6 0.3C8.5 0.1 8.2 0 8 0C7.8 0 7.5 0.1 7.4 0.3L4.2 5.2H0.7C0.3 5.2 0 5.5 0 5.9C0 6 0 6 0 6.1L1.9 12.9C2.1 13.6 2.6 14 3.3 14H12.7C13.4 14 13.9 13.6 14.1 12.9L16 6C16 5.9 16 5.9 16 5.8C16 5.4 15.7 5 15.3 5ZM8 1.9L10.2 5.1H5.9L8 1.9Z"
                         fill="black" />
                     </svg>
                     <span>Корзина</span>
+                    <div class="page-navigation-item-counter">
+                      <span>2</span>
+                    </div>
                   </a>
                   <div class="popover popover-cart ">
                     <div class="popover-content">
@@ -69,7 +73,8 @@
                         <ul class="popover-item">
                           <li class="popover-list">
                             <a href="#">
-                              <img src="image/pupover/product-1-small .png" alt="Селфи-палка любительская" width="39px" height="43px">
+                              <img src="image/pupover/product-1-small.png" alt="Селфи-палка любительская" width="39"
+                                height="43">
                               <span>Любительская селфи-палка</span>
                             </a>
                             <button class="popover-list-button">
@@ -78,7 +83,8 @@
                           </li>
                           <li class="popover-list">
                             <a href="#">
-                              <img src="image/pupover/product-1-small proff.png" alt="Селфи-палка профессиональная" width="39px" height="43px">
+                              <img src="image/pupover/product-1-small-proff.png" alt="Селфи-палка профессиональная"
+                                width="39" height="43">
                               <span>Профессиональная селфи-палка</span>
                             </a>
                             <button class="popover-list-button">
@@ -93,11 +99,12 @@
                       </div>
                       <div class="popover-link">
                         <div>
-                          <a class="popover-link-basket" href="#"><span class="popover-link-text">Открыть корзину</span></a>
+                          <a class="popover-link-basket" href="#"><span class="popover-link-text">Открыть
+                              корзину</span></a>
                         </div>
                       </div>
                     </div>
-                </div>
+                  </div>
                 </li>
               </ul>
             </div>
@@ -111,14 +118,16 @@
               <li class="product-navigation-item">
                 <button class="subcatalog-button">+</button>
               </li>
-              <ul class="subcatalog">
-                <li class="subcatalog-list box1"><a href="#">Вертуальная реальность</a></li>
-                <li class="subcatalog-list box2"><a href="#">Монопод для селфи</a></li>
-                <li class="subcatalog-list box3"><a href="#">Экшен-камера</a></li>
-                <li class="subcatalog-list box4"><a href="#">Фитнес-браслеты</a></li>
-                <li class="subcatalog-list box5"><a href="#">Умные часы</a></li>
-                <li class="subcatalog-list box6"><a href="#">Квадракоптеры</a></li>
-              </ul>
+              <li>
+                <ul class="subcatalog">
+                  <li class="subcatalog-list box1"><a href="#">Вертуальная реальность</a></li>
+                  <li class="subcatalog-list box2"><a href="#">Монопод для селфи</a></li>
+                  <li class="subcatalog-list box3"><a href="#">Экшен-камера</a></li>
+                  <li class="subcatalog-list box4"><a href="#">Фитнес-браслеты</a></li>
+                  <li class="subcatalog-list box5"><a href="#">Умные часы</a></li>
+                  <li class="subcatalog-list box6"><a href="#">Квадракоптеры</a></li>
+                </ul>
+              </li>
             </ul>
             <ul class="product-navigation-list product-navigation-info">
               <li class="product-navigation-item">
@@ -133,6 +142,7 @@
             </ul>
           </section>
         </nav>
+      </div>
     </header>
 
     <main class="main-index">
@@ -142,19 +152,27 @@
             <li class="information-gadget-item slider-gadget information-gadget-item--active">
               <div>
                 <img src="image/slider/slider-quadrocopter.png" width="560" height="560" alt="Внешний вид устройства">
-                <svg class="slader-prev" aria-hidden="true" focusable="false" width="20" height="61" viewBox="0 0 20 61"
-                  fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M20 60.3569H16.5L0 30.3569L16.5 0.356934H20L3.8 30.3569L20 60.3569Z" fill="black" />
-                </svg>
-                <svg class="slader-next" aria-hidden="true" focusable="false" width="20" height="61" viewBox="0 0 20 61"
-                  fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M0 60.3569H3.5L20 30.3569L3.5 0.356934H0L16.2 30.3569L0 60.3569Z" fill="black" />
-                </svg>
+                <button class="slader-prev">
+                  <b>
+                    <svg aria-hidden="true" focusable="false" width="20" height="60" viewBox="0 0 20 61" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M20 60.3569H16.5L0 30.3569L16.5 0.356934H20L3.8 30.3569L20 60.3569Z" fill="black" />
+                    </svg>
+                  </b>
+                </button>
+                <button class="slader-next">
+                  <b>
+                    <svg aria-hidden="true" focusable="false" width="20" height="60" viewBox="0 0 20 61" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 60.3569H3.5L20 30.3569L3.5 0.356934H0L16.2 30.3569L0 60.3569Z" fill="black" />
+                    </svg>
+                  </b>
+                </button>
               </div>
               <div class="information-gadget-item-info">
                 <h3 class="information-gadget-title">Порхает как бабочка, жалит как пчела!</h3>
                 <p class="information-gadget-text">Этот обычный, на первый взгляд, квадракоптер оснащен мощным лазером,
-                  замаскированным под стандартную камера.</p>
+                  замаскированным под стандартную камеру.</p>
                 <button class="detailed-gadget button-yellow">Подробнее</button>
                 <table class="info-gadget">
                   <tr>
@@ -171,14 +189,22 @@
             <li class="information-gadget-item slider-gadget">
               <div>
                 <img src="image/slider/slider-smart-watch.png" width="560" height="560" alt="Внешний вид устройства">
-                <svg class="slader-prev" aria-hidden="true" focusable="false" width="20" height="61" viewBox="0 0 20 61"
-                  fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M20 60.3569H16.5L0 30.3569L16.5 0.356934H20L3.8 30.3569L20 60.3569Z" fill="black" />
-                </svg>
-                <svg class="slader-next" aria-hidden="true" focusable="false" width="20" height="61" viewBox="0 0 20 61"
-                  fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M0 60.3569H3.5L20 30.3569L3.5 0.356934H0L16.2 30.3569L0 60.3569Z" fill="black" />
-                </svg>
+                <button class="slader-prev">
+                  <b>
+                    <svg aria-hidden="true" focusable="false" width="20" height="60" viewBox="0 0 20 61" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M20 60.3569H16.5L0 30.3569L16.5 0.356934H20L3.8 30.3569L20 60.3569Z" fill="black" />
+                    </svg>
+                  </b>
+                </button>
+                <button class="slader-next">
+                  <b>
+                    <svg aria-hidden="true" focusable="false" width="20" height="60" viewBox="0 0 20 61" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 60.3569H3.5L20 30.3569L3.5 0.356934H0L16.2 30.3569L0 60.3569Z" fill="black" />
+                    </svg>
+                  </b>
+                </button>
               </div>
               <div class="information-gadget-item-info">
                 <h3 class="information-gadget-title">Худеем <br>правильно!</h3>
@@ -198,14 +224,22 @@
             <li class="information-gadget-item slider-gadget">
               <div>
                 <img src="image/slider/slider-selfie.png" width="560" height="560" alt="Внешний вид устройства">
-                <svg class="slader-prev" aria-hidden="true" focusable="false" width="20" height="61" viewBox="0 0 20 61"
-                  fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M20 60.3569H16.5L0 30.3569L16.5 0.356934H20L3.8 30.3569L20 60.3569Z" fill="black" />
-                </svg>
-                <svg class="slader-next" aria-hidden="true" focusable="false" width="20" height="61" viewBox="0 0 20 61"
-                  fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M0 60.3569H3.5L20 30.3569L3.5 0.356934H0L16.2 30.3569L0 60.3569Z" fill="black" />
-                </svg>
+                <button class="slader-prev">
+                  <b>
+                    <svg aria-hidden="true" focusable="false" width="20" height="60" viewBox="0 0 20 61" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M20 60.3569H16.5L0 30.3569L16.5 0.356934H20L3.8 30.3569L20 60.3569Z" fill="black" />
+                    </svg>
+                  </b>
+                </button>
+                <button class="slader-next">
+                  <b>
+                    <svg aria-hidden="true" focusable="false" width="20" height="60" viewBox="0 0 20 61" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 60.3569H3.5L20 30.3569L3.5 0.356934H0L16.2 30.3569L0 60.3569Z" fill="black" />
+                    </svg>
+                  </b>
+                </button>
               </div>
               <div class="information-gadget-item-info">
                 <h3 class="information-gadget-title">Делай селфи,<br> как Бен Стиллер! </h3>
@@ -224,6 +258,7 @@
                     <td>Материал</td>
                   </tr>
                 </table>
+              </div>
             </li>
           </ul>
           <ol class="slider-pagination">
@@ -258,7 +293,7 @@
                       fill="#363636" />
                   </svg>
                 </div>
-                <span>Виртуальная реальность</span>
+                <span class="gadget-item-text">Виртуальная реальность</span>
               </a>
             </li>
             <li class="gadget-item">
@@ -274,7 +309,7 @@
                       fill="#363636" />
                   </svg>
                 </div>
-                <span>Монопод для селфи</span>
+                <span class="gadget-item-text">Моноподы для селфи</span>
               </a>
             </li>
             <li class="gadget-item">
@@ -313,7 +348,7 @@
                       fill="#363636" />
                   </svg>
                 </div>
-                <span>Экшн-камера</span>
+                <span class="gadget-item-text">Экшн-камеры</span>
               </a>
             </li>
             <li class="gadget-item">
@@ -328,7 +363,7 @@
                       fill="#363636" />
                   </svg>
                 </div>
-                <span>Фитнес-браслеты</span>
+                <span class="gadget-item-text">Фитнес-браслеты</span>
               </a>
             </li>
             <li class="gadget-item">
@@ -346,7 +381,7 @@
                       fill="#363636" />
                   </svg>
                 </div>
-                <span>Умные часы</span>
+                <span class="gadget-item-text">Умные часы</span>
               </a>
             </li>
             <li class="gadget-item">
@@ -373,7 +408,7 @@
                       fill="#363636" />
                   </svg>
                 </div>
-                <span>Квадракоптеры</span>
+                <span class="gadget-item-text">Квадракоптеры</span>
               </a>
             </li>
           </ul>
@@ -399,8 +434,8 @@
                 <li class="information-service-item information-service-item--active">
                   <div class="service-item-description">
                     <h3>Доставка</h3>
-                    <p>Мы с удовольствием доставим ваш товар прямо
-                      к вашему подъезду совершенно бесплатно! Ведь
+                    <p>Мы с удовольствием доставим ваш товар прямо <br>
+                      к вашему подъезду совершенно бесплатно! Ведь <br>
                       мы неплохо заработаем, поднимая его на ваш этаж.</p>
                   </div>
                   <img class="service-item-description-image" src="image/delivery.svg" width="136" height="164"
@@ -475,7 +510,7 @@
           </div>
           <div class="contacts">
             <h3>Контакты</h3>
-            <p>Вы можете забрать товар сами, заехав в наш офис.
+            <p>Вы можете забрать товар сами, заехав в наш офис.<br>
               Заодно сможете проверить работоспособность покупки.</p>
             <h4>Интернет-магазин «Девайс»</h4>
             <address class="contacts-address">
@@ -495,15 +530,15 @@
       <section class="mailing-list">
         <div class="container">
           <div class="mailing-text">
-            <h3>Подпишитесь на рассылку</h3>
-            <p>Еженедельный дайджест с обзорами новинок,
+            <h3>Подпишитесь <br> на рассылку</h3>
+            <p>Еженедельный дайджест с обзорами новинок, <br>
               длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё.</p>
           </div>
           <div class="mailing-btn">
             <div class="mailing-input">
-              <form action="">
-                <label class="form-label" for="">
-                  <input class="field" type="email" placeholder="Ваш e-mail">
+              <form action="https://echo.htmlacademy.ru/">
+                <label class="form-label" for="field">
+                  <input class="field" type="email" id="field" placeholder="Ваш e-mail">
                 </label>
               </form>
               <button class="mailing-list-btn">Подписаться</button>
@@ -628,43 +663,47 @@
           <form class="order-form" action="https://echo.htmlacademy.ru/" method="post">
             <p class="field-group">
               <label class="order-form-label" for="order-name">Ваше имя:</label>
-              <input class="order-form-field order-form-field-text field" type="text" id="order-name" name="order-name" placeholder="Введите имя">
+              <input class="order-form-field order-form-field-text field" type="text" id="order-name" name="order-name"
+                placeholder="Введите имя">
               <span class="hint">Добавьте имя</span>
             </p>
             <p class="field-group">
               <label class="order-form-label" for="order-email">Ваш e-mail:</label>
-              <input class="order-form-field order-form-field-email field" type="email" id="order-email" name="order-email" placeholder="Введите ваш e-mail">
+              <input class="order-form-field order-form-field-email field" type="email" id="order-email"
+                name="order-email" placeholder="Введите ваш e-mail">
               <span class="hint hint-email">Забавный у вас адрес</span>
             </p>
           </form>
           <form class="order-form" action="https://echo.htmlacademy.ru/" method="post">
             <div class="field-group field-group-devilery">
               <label class="order-form-label" for="order-devilery">Что нужно привезти:</label>
-              <input class="order-form-field order-form-field-devilery field" type="text" id="oorder-devilery" name="order-devilery" placeholder="В свободной форме">
+              <input class="order-form-field order-form-field-devilery field" type="text" id="order-devilery"
+                name="order-devilery" placeholder="В свободной форме">
             </div>
             <div class="field-group field-group-quantity">
               <span class="devilery-quantity">Количество:
                 <button class="devilery-quantity-button" aria-labelledby="tooltip-label-date">
                   <svg width="2" height="12" viewBox="0 0 2 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M2 0H0V2H2V0Z" fill="black"/>
-                  <path d="M2 4H0V12H2V4Z" fill="black"/>
+                    <path d="M2 0H0V2H2V0Z" fill="black" />
+                    <path d="M2 4H0V12H2V4Z" fill="black" />
                   </svg>
-                  <div class="devilery-quantity-info">
-                    <span role="tooltip" id="tooltip-label-date">Постараемся найти сколько нужно. Привезем сколько получится по требованиям к провозу багажа.</span>
-                  </div>
+                  <b class="devilery-quantity-info">
+                    <span role="tooltip" id="tooltip-label-date">Постараемся найти сколько нужно. Привезем сколько
+                      получится по требованиям к провозу багажа.</span>
+                  </b>
                 </button>
               </span>
               <div class="changing-quantity">
                 <button>
                   <svg width="16" height="2" viewBox="0 0 16 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M16 0H0V2H16V0Z" fill="black"/>
-                    </svg>
+                    <path d="M16 0H0V2H16V0Z" fill="black" />
+                  </svg>
                 </button>
                 <span>1</span>
                 <button>
                   <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M16 7H9V0H7V7H0V9H7V16H9V9H16V7Z" fill="black"/>
-                    </svg>
+                    <path d="M16 7H9V0H7V7H0V9H7V16H9V9H16V7Z" fill="black" />
+                  </svg>
                 </button>
               </div>
             </div>
