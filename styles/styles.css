@@ -1324,7 +1324,7 @@ align-items: center;
   left: 3px;
   width: 10px;
   height: 10px;
-  background: url(../image/Vector.svg);
+  background: url(../image/check.svg);
   content: "";
 }
 .control-input[type="radio"] + .control-mark {
