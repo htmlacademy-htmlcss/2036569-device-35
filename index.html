@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="favicon.ico">
   </head>
 
   <body>
@@ -12,6 +13,7 @@
       <div class="container">
         <nav class="navigation">
           <section class="page-navigation">
+            <h2 class="visually-hidden">Заголовок сайта</h2>
             <a class="header-logo-link style-focus" href="index.html">
               <img class="header-logo" src="image/logo.svg" width="145" height="36" alt="Логотип">
             </a>
@@ -45,14 +47,16 @@
                 </li>
               </ul>
               <ul class="page-navigation-list page-navigation-basket">
-                <li class="page-navigation-item">
-                  <a href="#" class="page-navigation-item-link style-focus"> <svg width="10" height="12" viewBox="0 0 10 12"
+                <li class="page-navigation-item page-navigation-item-link">
+                  <a href="#" class="page-navigation-item-link style-focus">
+                    <svg width="10" height="12" viewBox="0 0 10 12"
                       aria-hidden="true" focusable="false" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M6 0H4V12H6V0Z" fill="black" />
                       <path d="M2 4H0V12H2V4Z" fill="black" />
                       <path d="M10 3H8V12H10V3Z" fill="black" />
                     </svg>
-                    <span>Сравнить</span></a>
+                    <span>Сравнить</span>
+                  </a>
                 </li>
                 <li class="page-navigation-item">
                   <a href="#" class="page-navigation-item-link popover-close-button style-focus">
@@ -111,6 +115,7 @@
           </section>
 
           <section class="product-navigation">
+            <h2 class="visually-hidden">Меню выбора товара и сервиса</h2>
             <ul class="product-navigation-list">
               <li class="product-navigation-item">
                 <a class="product-catalog style-focus" href="catalog.html">Каталог товаров</a>
@@ -148,6 +153,7 @@
     <main class="main-index">
       <section class="information-gadget">
         <div class="container">
+          <h1 class="visually-hidden">Интернет-магазин гаджетов</h1>
           <ul class="information-gadget-list">
             <li class="information-gadget-item slider-gadget information-gadget-item--active">
               <div>
@@ -277,6 +283,7 @@
 
       <section class="kind-gadget">
         <div class="container">
+          <h2 class="visually-hidden">Виды популярных гаджетов</h2>
           <ul class="gadget-list">
             <li class="gadget-item">
               <a class="gadget-item-link style-focus" href="#">
@@ -418,6 +425,7 @@
       <section class="information-block">
         <div class="information">
           <div class="container">
+            <h2 class="visually-hidden">Сервис</h2>
             <div class="information-slider-block">
               <ul class="information-title-list">
                 <li class="information-delivery-title-item">
