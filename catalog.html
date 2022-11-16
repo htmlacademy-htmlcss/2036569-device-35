@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Каталог</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="favicon.ico">
   </head>
 
   <body>
@@ -14,6 +15,7 @@
       <div class="container">
         <nav class="navigation">
           <section class="page-navigation">
+            <h2 class="visually-hidden">Заголовок сайта</h2>
             <a class="header-logo-link style-focus" href="index.html">
               <img class="header-logo" src="image/logo.svg" width="145" height="36" alt="Логотип"></a>
             <div class="navigation-user">
@@ -27,7 +29,8 @@
                   </svg>
                   <form action="https://echo.htmlacademy.ru/">
                     <label class="form-label" for="navigation-input">
-                      <input class="navigation-input style-focus" id="navigation-input" type="text" placeholder="Текст поиска">
+                      <input class="navigation-input style-focus" id="navigation-input" type="text"
+                        placeholder="Текст поиска">
                     </label>
                   </form>
                   <div>
@@ -35,8 +38,9 @@
                   </div>
                 </li>
                 <li class="page-navigation-item page-navigation-item-user">
-                  <a class="page-navigation-item-link style-focus" href="#"> <svg width="14" height="12" viewBox="0 0 14 12"
-                      aria-hidden="true" focusable="false" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <a class="page-navigation-item-link style-focus" href="#"> <svg width="14" height="12"
+                      viewBox="0 0 14 12" aria-hidden="true" focusable="false" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M0.5 12H13.5C13.3 9.4 11.4 7.2 8.8 6.5C9.8 5.9 10.5 4.8 10.5 3.5C10.5 1.6 8.9 0 7 0C5.1 0 3.5 1.6 3.5 3.5C3.5 4.8 4.2 5.9 5.2 6.5C2.6 7.2 0.7 9.4 0.5 12Z"
                         fill="black" />
@@ -50,8 +54,9 @@
               </ul>
               <ul class="page-navigation-list page-navigation-basket">
                 <li class="page-navigation-item">
-                  <a href="#" class="page-navigation-item-link style-focus"> <svg width="10" height="12" viewBox="0 0 10 12"
-                      aria-hidden="true" focusable="false" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <a href="#" class="page-navigation-item-link style-focus"> <svg width="10" height="12"
+                      viewBox="0 0 10 12" aria-hidden="true" focusable="false" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
                       <path d="M6 0H4V12H6V0Z" fill="black" />
                       <path d="M2 4H0V12H2V4Z" fill="black" />
                       <path d="M10 3H8V12H10V3Z" fill="black" />
@@ -59,8 +64,9 @@
                     <span>Сравнить</span></a>
                 </li>
                 <li class="page-navigation-item">
-                  <a href="#" class="page-navigation-item-link style-focus"> <svg width="16" height="14" viewBox="0 0 16 14"
-                      aria-hidden="true" focusable="false" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <a href="#" class="page-navigation-item-link style-focus"> <svg width="16" height="14"
+                      viewBox="0 0 16 14" aria-hidden="true" focusable="false" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M15.3 5L11.8 5.2L8.6 0.3C8.5 0.1 8.2 0 8 0C7.8 0 7.5 0.1 7.4 0.3L4.2 5.2H0.7C0.3 5.2 0 5.5 0 5.9C0 6 0 6 0 6.1L1.9 12.9C2.1 13.6 2.6 14 3.3 14H12.7C13.4 14 13.9 13.6 14.1 12.9L16 6C16 5.9 16 5.9 16 5.8C16 5.4 15.7 5 15.3 5ZM8 1.9L10.2 5.1H5.9L8 1.9Z"
                         fill="black" />
@@ -110,6 +116,7 @@
           </section>
 
           <section class="product-navigation product-navigation-catalog">
+            <h2 class="visually-hidden">Меню выбора товара и сервиса</h2>
             <ul class="product-navigation-list">
               <li class="product-navigation-item">
                 <a class="product-catalog style-focus" href="catalog.html">Каталог товаров</a>
@@ -185,7 +192,7 @@
 
                     <div class="catalog-filter-list">
                       <div class="catalog-filter-item range-scale">
-                        <div class="range-bar" style="left: 0; width: 119px">
+                        <div class="range-bar" style="left: 0; width: 115px">
                           <button class="range-toggle toggle-min style-focus button-all"></button>
                           <button class="range-toggle toggle-max style-focus button-all"></button>
                         </div>
@@ -196,7 +203,8 @@
                           от <input class="range-input style-focus" type="number" value="0" name="min-price">
                         </label>
                         <label class="catalog-filter-label">
-                          до <input class="range-input style-focus" type="number" value="5000" name="max-price" style="width: 47px">
+                          до <input class="range-input style-focus" type="number" value="5000" name="max-price"
+                            style="width: 47px">
                         </label>
                       </div>
                     </div>
@@ -208,35 +216,35 @@
                       <li class="catalog-filter-item">
                         <label class="control">
                           <input class="control-input visually-hidden" type="checkbox" name="black" checked>
-                          <button class="control-mark style-focus button-all"></button>
+                          <span class="control-mark style-focus button-all"></span>
                           <span class="control-label">Черный</span>
                         </label>
                       </li>
                       <li class="catalog-filter-item">
                         <label class="control">
                           <input class="control-input visually-hidden" type="checkbox" name="white" checked>
-                          <button class="control-mark style-focus button-all"></button>
+                          <span class="control-mark style-focus button-all"></span>
                           <span class="control-label">Белый</span>
                         </label>
                       </li>
                       <li class="catalog-filter-item">
                         <label class="control">
                           <input class="control-input visually-hidden" type="checkbox" name="blue">
-                          <button class="control-mark style-focus button-all"></button>
+                          <span class="control-mark style-focus button-all"></span>
                           <span class="control-label">Синий</span>
                         </label>
                       </li>
                       <li class="catalog-filter-item">
                         <label class="control">
                           <input class="control-input visually-hidden" type="checkbox" name="red">
-                          <button class="control-mark style-focus button-all"></button>
+                          <span class="control-mark style-focus button-all"></span>
                           <span class="control-label">Красный</span>
                         </label>
                       </li>
                       <li class="catalog-filter-item">
                         <label class="control">
                           <input class="control-input visually-hidden" type="checkbox" name="pink">
-                          <button class="control-mark style-focus button-all"></button>
+                          <span class="control-mark style-focus button-all"></span>
                           <span class="control-label">Розовый</span>
                         </label>
                       </li>
@@ -250,21 +258,22 @@
                         <label class="control">
                           <input class="control-input visually-hidden" type="radio" name="Bluetooth" value="yes"
                             checked>
-                          <button class="control-mark style-focus button-all"></button>
+                          <span class="control-mark style-focus button-all"></span>
                           <span class="control-label">Есть</span>
                         </label>
                       </li>
                       <li class="catalog-filter-item">
                         <label class="control">
                           <input class="control-input visually-hidden" type="radio" name="Bluetooth" value="no">
-                          <button class="control-mark style-focus button-all"></button>
+                          <span class="control-mark style-focus button-all"></span>
                           <span class="control-label">Нет</span>
                         </label>
                       </li>
                     </ul>
                   </fieldset>
 
-                  <button class="catalog-filter-button button-yellow style-focus button-all" type="submit">Показать</button>
+                  <button class="catalog-filter-button button-yellow style-focus button-all"
+                    type="submit">Показать</button>
                 </form>
               </div>
               <div class="catalog-right-column">
@@ -338,7 +347,8 @@
                     </li>
                   </ul>
 
-                  <button class="button pagination-show-more style-focus button-all" type="button">Загрузить ещё</button>
+                  <button class="button pagination-show-more style-focus button-all" type="button">Загрузить
+                    ещё</button>
 
                   <ul class="pagination">
                     <li class="pagination-item pagination-item-prev">
@@ -369,8 +379,8 @@
 
     <footer class="page-footer">
       <div class="container">
-        <a class="page-footer-logo style-focus" href="index.html"><img src="image/logo-footer.svg" width="145" height="36"
-            alt="Логотип"></a>
+        <a class="page-footer-logo style-focus" href="index.html"><img src="image/logo-footer.svg" width="145"
+            height="36" alt="Логотип"></a>
         <div class="footer-info">
           <p class="footer-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
           <ul class="footer-list">
